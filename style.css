@@ -1,8 +1,8 @@
 :root {
-   --branco-principal: #FFFFFF:
-   
+   --branco-principal: #FFFFFF; 
    --botao-azul: #167BF7;
-
+   --cinza-secundario: #c0c0c0;
+   --cor-de-fundo: #000030;
 
 
 }
