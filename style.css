@@ -3,12 +3,15 @@
    --botao-azul: #167BF7;
    --cinza-secundario: #c0c0c0;
    --cor-de-fundo: #000030;
-
+   --font-principal: "inter";
 }
     
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight:400;
 }
 
 * {
@@ -20,6 +23,8 @@ body{
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items:center;
+    text-align:center;
 }
 
 .container{
@@ -52,8 +57,37 @@ body{
 }
 
 .container__imagem{
-    margin: 1 em 0 2em 0;
+    margin: 1em 0 2em 0;
 }
+
 .container_caixa{
     margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto{
+    color: var(--cinza-secundario);
+}
+
+.secundario-botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao{
+    padding: 2em;
 }
