@@ -2,7 +2,7 @@
    --branco-principal: #FFFFFF; 
    --botao-azul: #167BF7;
    --cinza-secundario: #c0c0c0;
-   --cor-de-fundo: #000030;
+   --cor-de-fundo: #00030C;
    --font-principal: "inter";
 }
     
@@ -45,7 +45,7 @@ body{
 
 .botao_secundario{
     background-color:transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
 }
 .container_aviso{
     font-size: 12px;
