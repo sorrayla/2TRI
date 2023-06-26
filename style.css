@@ -35,7 +35,7 @@ body{
 
 .container__botao{
     background-color: var(--botao-azul);
-    border-radius:5px;
+    border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -43,7 +43,7 @@ body{
     margin-bottom: 1em;
 }
 
-.botao_secundario{
+.botao__secundario{
     background-color:transparent;
     border: 2px solid var(--branco-principal);
 }
@@ -60,11 +60,11 @@ body{
     margin: 1em 0 2em 0;
 }
 
-.container_caixa{
+.container__caixa{
     margin: 0 6em;
 }
 
-.secundario_imagem{
+.secundario__imagem{
     width: 80%;
 }
 
@@ -80,7 +80,7 @@ body{
     margin-bottom: 0.1em;
 }
 
-.descricao_texto{
+.descricao__texto{
     color: var(--cinza-secundario);
 }
 
